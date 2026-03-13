@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+</head>
+<body>
+  <section class="hero">
+    <h1>{{hero_title}}</h1>
+    <p class="subtitle">{{hero_subtitle}}</p>
+    {{#if cta_text}}
+    <a href="{{cta_link}}" class="cta-button">{{cta_text}}</a>
+    {{/if}}
+  </section>
+  
+  <section class="features">
+    {{#each features}}
+    <div class="feature">
+      <h3>{{title}}</h3>
+      <p>{{description}}</p>
+    </div>
+    {{/each}}
+  </section>
+  
+  {{#if content}}
+  <section class="main-content">
+    {{content}}
+  </section>
+  {{/if}}
+</body>
+</html>

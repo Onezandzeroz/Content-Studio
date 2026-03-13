@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "template": "article",
+  "structure": {
+    "title": "string - The main heading of the article",
+    "description": "string - Brief summary for SEO/meta",
+    "content": "string - Full article content in HTML or plain text",
+    "author": "string - Author name (optional)",
+    "date": "string - ISO 8601 date format",
+    "tags": "array of strings - Categories/topics",
+    "metadata": {
+      "wordCount": "number",
+      "readingTime": "string - Estimated reading time",
+      "language": "string - Content language code"
+    }
+  }
+}

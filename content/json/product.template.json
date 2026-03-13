@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "template": "product",
+  "structure": {
+    "id": "string - Unique product identifier",
+    "name": "string - Product name",
+    "description": "string - Full product description",
+    "shortDescription": "string - Brief summary (max 150 chars)",
+    "price": {
+      "amount": "number",
+      "currency": "string - ISO 4217 currency code"
+    },
+    "images": "array of image URLs",
+    "features": "array of feature strings",
+    "specifications": "object - Key-value pairs of specs",
+    "availability": "string - 'in_stock', 'out_of_stock', 'preorder'",
+    "category": "string - Product category"
+  }
+}

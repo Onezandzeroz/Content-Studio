@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "template": "list",
+  "structure": {
+    "title": "string - List title",
+    "description": "string - List description",
+    "items": [
+      {
+        "id": "string or number - Item identifier",
+        "title": "string - Item title",
+        "description": "string - Item description",
+        "order": "number - Display order"
+      }
+    ],
+    "metadata": {
+      "totalItems": "number",
+      "lastUpdated": "string - ISO 8601 date"
+    }
+  }
+}

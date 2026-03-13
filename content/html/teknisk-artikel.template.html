@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{TITLE}}</title>
+</head>
+<body>
+  <article class="technical-article">
+    <!-- 1. Titel -->
+    <header>
+      <h1>{{ARTIKELTITEL}}</h1>
+      <p class="meta">{{FORFATTER}} | {{DATO}}</p>
+    </header>
+
+    <!-- 2. Billede/Video - Vedhæftede medier -->
+    <figure class="hero-media">
+      {{VEDHÆFTEDE_BILLEDER_VIDEOER}}
+      <figcaption>{{BILLEDTEKST}}</figcaption>
+    </figure>
+
+    <!-- 3. Introduktion -->
+    <section class="introduction">
+      <h2>Introduktion</h2>
+      <p>{{INTRODUKTION_TIL_EMNET}}</p>
+    </section>
+
+    <!-- 4. Princip -->
+    <section class="principle">
+      <h2>Princip</h2>
+      <p>{{FORKLARING_AF_PRINCIP}}</p>
+    </section>
+
+    <!-- 5. Fordele -->
+    <section class="benefits">
+      <h2>Fordele</h2>
+      <ul>
+        <li><strong>{{FORDEL_1_TITEL}}:</strong> {{FORDEL_1_BESKRIVELSE}}</li>
+        <li><strong>{{FORDEL_2_TITEL}}:</strong> {{FORDEL_2_BESKRIVELSE}}</li>
+        <li><strong>{{FORDEL_3_TITEL}}:</strong> {{FORDEL_3_BESKRIVELSE}}</li>
+      </ul>
+    </section>
+
+    <!-- 6. Anvendelse -->
+    <section class="application">
+      <h2>Anvendelse</h2>
+      <p>{{BESKRIVELSE_AF_ANVENDELSE}}</p>
+      <ul>
+        <li>{{ANVENDELSE_1}}</li>
+        <li>{{ANVENDELSE_2}}</li>
+      </ul>
+    </section>
+  </article>
+</body>
+</html>

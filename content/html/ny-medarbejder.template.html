@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{TITLE}}</title>
+</head>
+<body>
+  <article class="new-employee">
+    <!-- 1. Titel -->
+    <header>
+      <h1>Ny medarbejder: {{NAVN}}</h1>
+      <p class="meta">{{ROLLE}} | {{DATO}}</p>
+    </header>
+
+    <!-- 2. Portrætbillede - Vedhæftede medier -->
+    <figure class="hero-media">
+      {{VEDHÆFTEDE_BILLEDER_VIDEOER}}
+      <figcaption>{{NAVN}}</figcaption>
+    </figure>
+
+    <!-- 3. Kort baggrund -->
+    <section class="background">
+      <h2>Baggrund</h2>
+      <p>{{KORT_BAGGRUND}}</p>
+    </section>
+
+    <!-- 4. Ekspertise -->
+    <section class="expertise">
+      <h2>Ekspertise</h2>
+      <ul>
+        <li>{{EKSPERTISE_1}}</li>
+        <li>{{EKSPERTISE_2}}</li>
+        <li>{{EKSPERTISE_3}}</li>
+      </ul>
+    </section>
+
+    <!-- 5. Glæde ved at være med -->
+    <section class="welcome">
+      <h2>Velkommen til teamet</h2>
+      <blockquote>
+        <p>"{{PERSONLIG_BESKED}}"</p>
+      </blockquote>
+    </section>
+  </article>
+</body>
+</html>

@@ -1,0 +1,32 @@
+# {{ARTIKELTITEL}}
+
+*Af {{FORFATTER}} | {{DATO}}*
+
+---
+
+## Illustrationer
+
+{{VEDHÆFTEDE_BILLEDER_VIDEOER}}
+
+---
+
+## Introduktion
+
+{{INTRODUKTION_TIL_EMNET}}
+
+## Princip
+
+{{FORKLARING_AF_PRINCIP}}
+
+## Fordele
+
+- **{{FORDEL_1_TITEL}}**: {{FORDEL_1_BESKRIVELSE}}
+- **{{FORDEL_2_TITEL}}**: {{FORDEL_2_BESKRIVELSE}}
+- **{{FORDEL_3_TITEL}}**: {{FORDEL_3_BESKRIVELSE}}
+
+## Anvendelse
+
+{{BESKRIVELSE_AF_ANVENDELSE}}
+
+- {{ANVENDELSE_1}}
+- {{ANVENDELSE_2}}

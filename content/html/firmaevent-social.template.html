@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{TITLE}}</title>
+</head>
+<body>
+  <article class="company-event">
+    <!-- 1. Titel -->
+    <header>
+      <h1>{{BEGIVENHEDSTITEL}}</h1>
+      <p class="meta">{{DATO}} | {{STED}}</p>
+    </header>
+
+    <!-- 2. Festbilleder - Vedhæftede medier -->
+    <figure class="hero-media">
+      {{VEDHÆFTEDE_BILLEDER_VIDEOER}}
+      <figcaption>{{BILLEDTEKST}}</figcaption>
+    </figure>
+
+    <!-- 3. Stemning -->
+    <section class="atmosphere">
+      <h2>Stemning</h2>
+      <p>{{BESKRIVELSE_AF_STEMNING}}</p>
+    </section>
+
+    <!-- 4. Højdepunkter -->
+    <section class="highlights">
+      <h2>Højdepunkter</h2>
+      <ul>
+        <li>{{HØJDEPUNKT_1}}</li>
+        <li>{{HØJDEPUNKT_2}}</li>
+      </ul>
+    </section>
+
+    <!-- 5. Tak -->
+    <section class="thanks">
+      <h2>Tak til alle</h2>
+      <p>{{TAK_BESKED}}</p>
+    </section>
+
+    <!-- 6. Emoji og afslutning -->
+    <footer class="emoji-footer">
+      <p>{{EMOJI_AFSLUTNING}}</p>
+    </footer>
+  </article>
+</body>
+</html>

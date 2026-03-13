@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{TITLE}}</title>
+</head>
+<body>
+  <article class="teambuilding">
+    <!-- 1. Titel -->
+    <header>
+      <h1>{{AKTIVITETSTITEL}}</h1>
+      <p class="meta">{{STED}} | {{DATO}}</p>
+    </header>
+
+    <!-- 2. Gruppebillede - Vedhæftede medier -->
+    <figure class="hero-media">
+      {{VEDHÆFTEDE_BILLEDER_VIDEOER}}
+      <figcaption>{{BILLEDTEKST}}</figcaption>
+    </figure>
+
+    <!-- 3. Aktiviteter -->
+    <section class="activities">
+      <h2>Aktiviteter</h2>
+      <p>{{BESKRIVELSE_AF_AKTIVITETER}}</p>
+      <ul>
+        <li>{{AKTIVITET_1}}</li>
+        <li>{{AKTIVITET_2}}</li>
+      </ul>
+    </section>
+
+    <!-- 4. Samvær -->
+    <section class="togetherness">
+      <h2>Samvær</h2>
+      <p>{{BESKRIVELSE_AF_SAMVÆR}}</p>
+    </section>
+
+    <!-- 5. Motivation -->
+    <section class="motivation">
+      <h2>Motivation</h2>
+      <p>{{BESKRIVELSE_AF_MOTIVATION}}</p>
+    </section>
+  </article>
+</body>
+</html>

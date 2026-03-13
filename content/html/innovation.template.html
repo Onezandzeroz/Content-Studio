@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{TITLE}}</title>
+</head>
+<body>
+  <article class="innovation-blog">
+    <!-- 1. Titel -->
+    <header>
+      <h1>{{BLOGTITEL}}</h1>
+      <p class="meta">{{FORFATTER}} | {{DATO}}</p>
+    </header>
+
+    <!-- 2. Billede/Video - Vedhæftede medier -->
+    <figure class="hero-media">
+      {{VEDHÆFTEDE_BILLEDER_VIDEOER}}
+      <figcaption>{{BILLEDTEKST}}</figcaption>
+    </figure>
+
+    <!-- 3. Introduktion -->
+    <section class="introduction">
+      <h2>Om teknologien</h2>
+      <p>{{BESKRIVELSE_AF_TEKNOLOGI}}</p>
+    </section>
+
+    <!-- 4. Fordele for miljøet -->
+    <section class="environmental-benefits">
+      <h2>Fordele for miljøet</h2>
+      <ul>
+        <li>{{MILJØ_FORDEL_1}}</li>
+        <li>{{MILJØ_FORDEL_2}}</li>
+      </ul>
+    </section>
+
+    <!-- 5. Fordele for indeklima -->
+    <section class="indoor-climate">
+      <h2>Fordele for indeklimaet</h2>
+      <ul>
+        <li>{{INDEKLIMA_FORDEL_1}}</li>
+        <li>{{INDEKLIMA_FORDEL_2}}</li>
+      </ul>
+    </section>
+
+    <!-- 6. Diagrammer/Illustrationer -->
+    <section class="diagrams">
+      <h2>Diagrammer og illustrationer</h2>
+      {{DIAGRAMMER}}
+    </section>
+  </article>
+</body>
+</html>

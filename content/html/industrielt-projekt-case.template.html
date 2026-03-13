@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{TITLE}}</title>
+</head>
+<body>
+  <article class="industrial-case">
+    <!-- 1. Titel/Navn -->
+    <header>
+      <h1>{{PROJEKTNAVN}}</h1>
+      <p class="meta">{{KUNDENAVN}} | {{DATO}}</p>
+    </header>
+
+    <!-- 2. Billede/Video - Vedhæftede medier -->
+    <figure class="hero-media">
+      {{VEDHÆFTEDE_BILLEDER_VIDEOER}}
+      <figcaption>{{BILLEDTEKST}}</figcaption>
+    </figure>
+
+    <!-- 3. Før-problemer -->
+    <section class="before-problems">
+      <h2>Før installationen</h2>
+      <p>{{BESKRIVELSE_AF_SITUATIONEN_FØR}}</p>
+      <ul>
+        <li>{{PROBLEM_1}}</li>
+        <li>{{PROBLEM_2}}</li>
+        <li>{{PROBLEM_3}}</li>
+      </ul>
+    </section>
+
+    <!-- 4. Installation -->
+    <section class="installation">
+      <h2>Installation</h2>
+      <p>{{BESKRIVELSE_AF_INSTALLATION}}</p>
+      <ul>
+        <li>{{INSTALLATIONSDETALJE_1}}</li>
+        <li>{{INSTALLATIONSDETALJE_2}}</li>
+      </ul>
+    </section>
+
+    <!-- 5. Målbare forbedringer -->
+    <section class="improvements">
+      <h2>Målbare forbedringer</h2>
+      <div class="metrics">
+        <div class="metric">
+          <span class="value">{{MÅL_1_VÆRDI}}</span>
+          <span class="label">{{MÅL_1_LABEL}}</span>
+        </div>
+        <div class="metric">
+          <span class="value">{{MÅL_2_VÆRDI}}</span>
+          <span class="label">{{MÅL_2_LABEL}}</span>
+        </div>
+        <div class="metric">
+          <span class="value">{{MÅL_3_VÆRDI}}</span>
+          <span class="label">{{MÅL_3_LABEL}}</span>
+        </div>
+      </div>
+    </section>
+  </article>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{TITLE}}</title>
+</head>
+<body>
+  <article class="project-case">
+    <!-- 1. Titel/Navn -->
+    <header>
+      <h1>{{PROJEKTNAVN}}</h1>
+      <p class="meta">{{DATO}} | {{LOKATION}}</p>
+    </header>
+
+    <!-- 2. Billede/Video - Vedhæftede medier -->
+    <figure class="hero-media">
+      {{VEDHÆFTEDE_BILLEDER_VIDEOER}}
+      <figcaption>{{BILLEDTEKST}}</figcaption>
+    </figure>
+
+    <!-- 3. Projektoversigt -->
+    <section class="project-overview">
+      <h2>Projektoversigt</h2>
+      <p>{{KORT_BESKRIVELSE_AF_PROJEKTET}}</p>
+    </section>
+
+    <!-- 4. Udfordring -->
+    <section class="challenge">
+      <h2>Udfordring</h2>
+      <p>{{BESKRIVELSE_AF_UDFORDRINGEN}}</p>
+      <ul>
+        <li>{{UDFORDRING_1}}</li>
+        <li>{{UDFORDRING_2}}</li>
+      </ul>
+    </section>
+
+    <!-- 5. Løsning -->
+    <section class="solution">
+      <h2>Løsning</h2>
+      <p>{{BESKRIVELSE_AF_LØSNINGEN}}</p>
+      <ul>
+        <li>{{LØSNING_DETALJE_1}}</li>
+        <li>{{LØSNING_DETALJE_2}}</li>
+      </ul>
+    </section>
+
+    <!-- 6. Resultat -->
+    <section class="results">
+      <h2>Resultater</h2>
+      <div class="stats">
+        <div class="stat">
+          <span class="number">{{BESPARELSE_1}}</span>
+          <span class="label">{{LABEL_1}}</span>
+        </div>
+        <div class="stat">
+          <span class="number">{{BESPARELSE_2}}</span>
+          <span class="label">{{LABEL_2}}</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Kundeberetning -->
+    <section class="testimonial">
+      <h2>Kundeberetning</h2>
+      <blockquote>
+        <p>"{{KUNDE_UDTALELSE}}"</p>
+        <cite>— {{KUNDE_NAVN}}, {{KUNDE_TITEL}}</cite>
+      </blockquote>
+    </section>
+  </article>
+</body>
+</html>
